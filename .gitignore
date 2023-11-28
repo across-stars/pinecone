@@ -1,0 +1,4 @@
+__pycache__/
+*.swp
+glove42/
+error_log.txt
