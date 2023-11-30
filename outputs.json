@@ -1,0 +1,3273 @@
+{
+  "atom": {
+    "true_label": "solar_system",
+    "pred_label": "organism",
+    "retrieved_set": [
+      {
+        "stem": "atom__nucleus",
+        "analogy": "solar_system__sun",
+        "retrieved": [
+          {
+            "id": "organism__cell",
+            "score": 0.865429759,
+            "word": "organism"
+          },
+          {
+            "id": "flower__petal",
+            "score": 0.852120459,
+            "word": "flower"
+          },
+          {
+            "id": "organism__organ",
+            "score": 0.835602462,
+            "word": "organism"
+          },
+          {
+            "id": "apple__core",
+            "score": 0.803653181,
+            "word": "apple"
+          },
+          {
+            "id": "carrot__leaves",
+            "score": 0.799516857,
+            "word": "carrot"
+          }
+        ]
+      },
+      {
+        "stem": "atom__electron",
+        "analogy": "solar_system__planet",
+        "retrieved": [
+          {
+            "id": "organism__cell",
+            "score": 0.899557412,
+            "word": "organism"
+          },
+          {
+            "id": "flower__petal",
+            "score": 0.810324728,
+            "word": "flower"
+          },
+          {
+            "id": "guitar__string",
+            "score": 0.807213545,
+            "word": "guitar"
+          },
+          {
+            "id": "jewellery__bead",
+            "score": 0.794800758,
+            "word": "jewellery"
+          },
+          {
+            "id": "computer__CPU",
+            "score": 0.777906299,
+            "word": "computer"
+          }
+        ]
+      },
+      {
+        "stem": "atom__charge",
+        "analogy": "solar_system__mass",
+        "retrieved": [
+          {
+            "id": "object__light",
+            "score": 0.744715273,
+            "word": "object"
+          },
+          {
+            "id": "blossom__water",
+            "score": 0.729242861,
+            "word": "blossom"
+          },
+          {
+            "id": "vital__energy",
+            "score": 0.728470147,
+            "word": "vital"
+          },
+          {
+            "id": "flower__water",
+            "score": 0.71999532,
+            "word": "flower"
+          },
+          {
+            "id": "solid__order",
+            "score": 0.719096541,
+            "word": "solid"
+          },
+          {
+            "id": "boat__sail",
+            "score": 0.713425934,
+            "word": "boat"
+          }
+        ]
+      },
+      {
+        "stem": "atom__attracts",
+        "analogy": "solar_system__attracts",
+        "retrieved": [
+          {
+            "id": "planet__attracts",
+            "score": 0.884052098,
+            "word": "planet"
+          },
+          {
+            "id": "light__reflects",
+            "score": 0.760703802,
+            "word": "light"
+          },
+          {
+            "id": "projectile__attracts",
+            "score": 0.745500624,
+            "word": "projectile"
+          },
+          {
+            "id": "becomes__contains",
+            "score": 0.725679219,
+            "word": "becomes"
+          },
+          {
+            "id": "represents__creates",
+            "score": 0.713404655,
+            "word": "represents"
+          }
+        ]
+      },
+      {
+        "stem": "atom__revolves",
+        "analogy": "solar_system__revolves",
+        "retrieved": [
+          {
+            "id": "solar_system__revolves",
+            "score": 0.761710048,
+            "word": "solar_system"
+          },
+          {
+            "id": "projectile__attracts",
+            "score": 0.708472908,
+            "word": "projectile"
+          },
+          {
+            "id": "object__light",
+            "score": 0.697082579,
+            "word": "object"
+          },
+          {
+            "id": "pedestrian__walks",
+            "score": 0.686925173,
+            "word": "pedestrian"
+          }
+        ]
+      },
+      {
+        "stem": "atom__electromagnetism",
+        "analogy": "solar_system__gravity",
+        "retrieved": [
+          {
+            "id": "planet__gravity",
+            "score": 0.835233748,
+            "word": "planet"
+          },
+          {
+            "id": "colleague__camaraderie",
+            "score": 0.779186785,
+            "word": "colleague"
+          },
+          {
+            "id": "cobra__venom",
+            "score": 0.770869315,
+            "word": "cobra"
+          },
+          {
+            "id": "woman__variety",
+            "score": 0.756544054,
+            "word": "woman"
+          },
+          {
+            "id": "god__wit",
+            "score": 0.747858405,
+            "word": "god"
+          },
+          {
+            "id": "woman__agency",
+            "score": 0.742047846,
+            "word": "woman"
+          }
+        ]
+      }
+    ]
+  },
+  "heat_transfer": {
+    "true_label": "water_flow",
+    "pred_label": "water_flow",
+    "retrieved_set": [
+      {
+        "stem": "heat_transfer__transfers",
+        "analogy": "water_flow__flows",
+        "retrieved": [
+          {
+            "id": "walk__walks",
+            "score": 0.89636606,
+            "word": "walk"
+          },
+          {
+            "id": "loss__losses",
+            "score": 0.882767379,
+            "word": "loss"
+          },
+          {
+            "id": "duty__duties",
+            "score": 0.86442095,
+            "word": "duty"
+          },
+          {
+            "id": "find__finds",
+            "score": 0.860491276,
+            "word": "find"
+          },
+          {
+            "id": "ability__abilities",
+            "score": 0.856103,
+            "word": "ability"
+          },
+          {
+            "id": "dream__dreams",
+            "score": 0.855992794,
+            "word": "dream"
+          }
+        ]
+      },
+      {
+        "stem": "heat_transfer__temperature",
+        "analogy": "water_flow__pressure",
+        "retrieved": [
+          {
+            "id": "water_flow__pressure",
+            "score": 0.776970148,
+            "word": "water_flow"
+          },
+          {
+            "id": "amplify__volume",
+            "score": 0.762478828,
+            "word": "amplify"
+          },
+          {
+            "id": "emphasis__accent",
+            "score": 0.72584033,
+            "word": "emphasis"
+          },
+          {
+            "id": "intensify__endurance",
+            "score": 0.70202136,
+            "word": "intensify"
+          },
+          {
+            "id": "natural_selection__fitness",
+            "score": 0.685756326,
+            "word": "natural_selection"
+          },
+          {
+            "id": "current__river",
+            "score": 0.681137741,
+            "word": "current"
+          }
+        ]
+      },
+      {
+        "stem": "heat_transfer__burner",
+        "analogy": "water_flow__water_tower",
+        "retrieved": [
+          {
+            "id": "heat__radiator",
+            "score": 0.784479797,
+            "word": "heat"
+          },
+          {
+            "id": "weigh__scale",
+            "score": 0.719707906,
+            "word": "weigh"
+          },
+          {
+            "id": "light__lens",
+            "score": 0.711641848,
+            "word": "light"
+          },
+          {
+            "id": "journey__car",
+            "score": 0.700066805,
+            "word": "journey"
+          },
+          {
+            "id": "water_flow__water_tower",
+            "score": 0.698402882,
+            "word": "water_flow"
+          }
+        ]
+      },
+      {
+        "stem": "heat_transfer__kettle",
+        "analogy": "water_flow__bucket",
+        "retrieved": [
+          {
+            "id": "water_flow__bucket",
+            "score": 0.74508971,
+            "word": "water_flow"
+          },
+          {
+            "id": "water_flow__water_tower",
+            "score": 0.740200818,
+            "word": "water_flow"
+          },
+          {
+            "id": "heat__radiator",
+            "score": 0.737797678,
+            "word": "heat"
+          },
+          {
+            "id": "light__lens",
+            "score": 0.702086806,
+            "word": "light"
+          },
+          {
+            "id": "journey__car",
+            "score": 0.701128781,
+            "word": "journey"
+          }
+        ]
+      },
+      {
+        "stem": "heat_transfer__heating",
+        "analogy": "water_flow__filling",
+        "retrieved": [
+          {
+            "id": "respiration__living",
+            "score": 0.845612109,
+            "word": "respiration"
+          },
+          {
+            "id": "adding__representing",
+            "score": 0.828713119,
+            "word": "adding"
+          },
+          {
+            "id": "represent__representing",
+            "score": 0.781926453,
+            "word": "represent"
+          },
+          {
+            "id": "creating__representing",
+            "score": 0.781077623,
+            "word": "creating"
+          },
+          {
+            "id": "believing__relating",
+            "score": 0.775361478,
+            "word": "believing"
+          }
+        ]
+      },
+      {
+        "stem": "heat_transfer__cooling",
+        "analogy": "water_flow__emptying",
+        "retrieved": [
+          {
+            "id": "respiration__living",
+            "score": 0.809618175,
+            "word": "respiration"
+          },
+          {
+            "id": "nutrient__growth",
+            "score": 0.760792196,
+            "word": "nutrient"
+          },
+          {
+            "id": "fertilizer__growth",
+            "score": 0.760044336,
+            "word": "fertilizer"
+          },
+          {
+            "id": "following__learning",
+            "score": 0.750719726,
+            "word": "following"
+          },
+          {
+            "id": "virus__infection",
+            "score": 0.749803185,
+            "word": "virus"
+          }
+        ]
+      },
+      {
+        "stem": "heat_transfer__thermodynamics",
+        "analogy": "water_flow__hydrodynamics",
+        "retrieved": [
+          {
+            "id": "water_flow__hydrodynamics",
+            "score": 0.926722407,
+            "word": "water_flow"
+          },
+          {
+            "id": "archeology__science",
+            "score": 0.737937331,
+            "word": "archeology"
+          },
+          {
+            "id": "memorial__architecture",
+            "score": 0.731616378,
+            "word": "memorial"
+          },
+          {
+            "id": "portrait__photography",
+            "score": 0.6923334,
+            "word": "portrait"
+          },
+          {
+            "id": "idea__creativity",
+            "score": 0.675896406,
+            "word": "idea"
+          }
+        ]
+      }
+    ]
+  },
+  "sounds": {
+    "true_label": "waves",
+    "pred_label": "sound",
+    "retrieved_set": [
+      {
+        "stem": "sounds__wall",
+        "analogy": "waves__shore",
+        "retrieved": [
+          {
+            "id": "boots__wall",
+            "score": 0.811624885,
+            "word": "boots"
+          },
+          {
+            "id": "water_flow__water_tower",
+            "score": 0.803431213,
+            "word": "water_flow"
+          },
+          {
+            "id": "clothing__wall",
+            "score": 0.760870516,
+            "word": "clothing"
+          },
+          {
+            "id": "waves__shore",
+            "score": 0.756073654,
+            "word": "waves"
+          },
+          {
+            "id": "water_flow__bucket",
+            "score": 0.723270774,
+            "word": "water_flow"
+          },
+          {
+            "id": "odor__spine",
+            "score": 0.718365848,
+            "word": "odor"
+          }
+        ]
+      },
+      {
+        "stem": "sounds__echoes",
+        "analogy": "waves__reflects",
+        "retrieved": [
+          {
+            "id": "sound__echoes",
+            "score": 0.868450224,
+            "word": "sound"
+          },
+          {
+            "id": "gas_molecules__molecules",
+            "score": 0.714629352,
+            "word": "gas_molecules"
+          },
+          {
+            "id": "provides__estimates",
+            "score": 0.707985878,
+            "word": "provides"
+          },
+          {
+            "id": "searches__shuffles",
+            "score": 0.691356778,
+            "word": "searches"
+          },
+          {
+            "id": "vocabulary__lexicon",
+            "score": 0.689972103,
+            "word": "vocabulary"
+          },
+          {
+            "id": "dollars__bucks",
+            "score": 0.675215721,
+            "word": "dollars"
+          }
+        ]
+      },
+      {
+        "stem": "sounds__air",
+        "analogy": "waves__water",
+        "retrieved": [
+          {
+            "id": "waves__water",
+            "score": 0.817361474,
+            "word": "waves"
+          },
+          {
+            "id": "chocolate__cocoa",
+            "score": 0.801868379,
+            "word": "chocolate"
+          },
+          {
+            "id": "snow__water",
+            "score": 0.799996257,
+            "word": "snow"
+          },
+          {
+            "id": "wire__metal",
+            "score": 0.772040069,
+            "word": "wire"
+          },
+          {
+            "id": "yogurt__milk",
+            "score": 0.762776136,
+            "word": "yogurt"
+          },
+          {
+            "id": "wine__grapes",
+            "score": 0.751692235,
+            "word": "wine"
+          }
+        ]
+      },
+      {
+        "stem": "sounds__insulation",
+        "analogy": "waves__breakwater",
+        "retrieved": [
+          {
+            "id": "bone__art",
+            "score": 0.759344697,
+            "word": "bone"
+          },
+          {
+            "id": "skill__education",
+            "score": 0.752180099,
+            "word": "skill"
+          },
+          {
+            "id": "clothes__sofa",
+            "score": 0.75094384,
+            "word": "clothes"
+          },
+          {
+            "id": "bandage__medicine",
+            "score": 0.73761636,
+            "word": "bandage"
+          },
+          {
+            "id": "clothing__roof",
+            "score": 0.736654401,
+            "word": "clothing"
+          },
+          {
+            "id": "mirth__art",
+            "score": 0.73272723,
+            "word": "mirth"
+          }
+        ]
+      },
+      {
+        "stem": "sounds__loud",
+        "analogy": "waves__rough",
+        "retrieved": [
+          {
+            "id": "sound__loud",
+            "score": 0.934919477,
+            "word": "sound"
+          },
+          {
+            "id": "sound__high",
+            "score": 0.834180474,
+            "word": "sound"
+          },
+          {
+            "id": "light__bright",
+            "score": 0.799783409,
+            "word": "light"
+          },
+          {
+            "id": "sound__low",
+            "score": 0.795787632,
+            "word": "sound"
+          },
+          {
+            "id": "waves__rough",
+            "score": 0.788516641,
+            "word": "waves"
+          },
+          {
+            "id": "costly__cute",
+            "score": 0.782782853,
+            "word": "costly"
+          }
+        ]
+      },
+      {
+        "stem": "sounds__quiet",
+        "analogy": "waves__calm",
+        "retrieved": [
+          {
+            "id": "sound__quiet",
+            "score": 0.960297763,
+            "word": "sound"
+          },
+          {
+            "id": "odor__odorless",
+            "score": 0.819239914,
+            "word": "odor"
+          },
+          {
+            "id": "effort__effortless",
+            "score": 0.809524,
+            "word": "effort"
+          },
+          {
+            "id": "tricky__pure",
+            "score": 0.808580637,
+            "word": "tricky"
+          },
+          {
+            "id": "risky__neat",
+            "score": 0.805755854,
+            "word": "risky"
+          },
+          {
+            "id": "strange__nice",
+            "score": 0.805403411,
+            "word": "strange"
+          }
+        ]
+      },
+      {
+        "stem": "sounds__vibrating",
+        "analogy": "waves__crashing",
+        "retrieved": [
+          {
+            "id": "waves__rough",
+            "score": 0.789932311,
+            "word": "waves"
+          },
+          {
+            "id": "gas_molecules__moving",
+            "score": 0.788294077,
+            "word": "gas_molecules"
+          },
+          {
+            "id": "billiard_balls__bouncing",
+            "score": 0.77315551,
+            "word": "billiard_balls"
+          },
+          {
+            "id": "leaves__green",
+            "score": 0.771133244,
+            "word": "leaves"
+          },
+          {
+            "id": "waves__crashing",
+            "score": 0.762970448,
+            "word": "waves"
+          },
+          {
+            "id": "billiard_balls__moving",
+            "score": 0.762756824,
+            "word": "billiard_balls"
+          }
+        ]
+      }
+    ]
+  },
+  "respiration": {
+    "true_label": "combustion",
+    "pred_label": "combustion",
+    "retrieved_set": [
+      {
+        "stem": "respiration__animal",
+        "analogy": "combustion__fire",
+        "retrieved": [
+          {
+            "id": "meow__cat",
+            "score": 0.797650695,
+            "word": "meow"
+          },
+          {
+            "id": "sing__bird",
+            "score": 0.784885585,
+            "word": "sing"
+          },
+          {
+            "id": "chuckle__pony",
+            "score": 0.773388743,
+            "word": "chuckle"
+          },
+          {
+            "id": "rescue__knight",
+            "score": 0.751783,
+            "word": "rescue"
+          },
+          {
+            "id": "mourn__mourner",
+            "score": 0.751151204,
+            "word": "mourn"
+          },
+          {
+            "id": "fear__victim",
+            "score": 0.745447695,
+            "word": "fear"
+          }
+        ]
+      },
+      {
+        "stem": "respiration__food",
+        "analogy": "combustion__fuel",
+        "retrieved": [
+          {
+            "id": "debate__knowledge",
+            "score": 0.769380093,
+            "word": "debate"
+          },
+          {
+            "id": "battle__victory",
+            "score": 0.709138632,
+            "word": "battle"
+          },
+          {
+            "id": "research__information",
+            "score": 0.706809521,
+            "word": "research"
+          },
+          {
+            "id": "faith__atonement",
+            "score": 0.702713311,
+            "word": "faith"
+          }
+        ]
+      },
+      {
+        "stem": "respiration__breathing",
+        "analogy": "combustion__burning",
+        "retrieved": [
+          {
+            "id": "combustion__burning",
+            "score": 0.784477472,
+            "word": "combustion"
+          },
+          {
+            "id": "heat_transfer__heating",
+            "score": 0.714620769,
+            "word": "heat_transfer"
+          },
+          {
+            "id": "discovering__swimming",
+            "score": 0.685152948,
+            "word": "discovering"
+          },
+          {
+            "id": "bacterial_mutation__mutating",
+            "score": 0.680466413,
+            "word": "bacterial_mutation"
+          },
+          {
+            "id": "combustion__fire",
+            "score": 0.674688339,
+            "word": "combustion"
+          }
+        ]
+      },
+      {
+        "stem": "respiration__living",
+        "analogy": "combustion__hot",
+        "retrieved": [
+          {
+            "id": "heat_transfer__heating",
+            "score": 0.845612109,
+            "word": "heat_transfer"
+          },
+          {
+            "id": "following__learning",
+            "score": 0.812158048,
+            "word": "following"
+          },
+          {
+            "id": "heat_transfer__cooling",
+            "score": 0.809618175,
+            "word": "heat_transfer"
+          },
+          {
+            "id": "believing__relating",
+            "score": 0.793696582,
+            "word": "believing"
+          },
+          {
+            "id": "spending__improving",
+            "score": 0.765133858,
+            "word": "spending"
+          },
+          {
+            "id": "adding__representing",
+            "score": 0.753095806,
+            "word": "adding"
+          }
+        ]
+      },
+      {
+        "stem": "respiration__vigorous",
+        "analogy": "combustion__intense",
+        "retrieved": [
+          {
+            "id": "pain__sad",
+            "score": 0.811920822,
+            "word": "pain"
+          },
+          {
+            "id": "reflect__luminous",
+            "score": 0.806690454,
+            "word": "reflect"
+          },
+          {
+            "id": "love__excited",
+            "score": 0.790522039,
+            "word": "love"
+          },
+          {
+            "id": "combustion__hot",
+            "score": 0.767598212,
+            "word": "combustion"
+          },
+          {
+            "id": "creative__interesting",
+            "score": 0.761455119,
+            "word": "creative"
+          },
+          {
+            "id": "selection__decisive",
+            "score": 0.759338081,
+            "word": "selection"
+          }
+        ]
+      },
+      {
+        "stem": "respiration__oxygen",
+        "analogy": "combustion__oxygen",
+        "retrieved": [
+          {
+            "id": "research__information",
+            "score": 0.799768031,
+            "word": "research"
+          },
+          {
+            "id": "combustion__oxygen",
+            "score": 0.792907774,
+            "word": "combustion"
+          },
+          {
+            "id": "commerce__goods",
+            "score": 0.772334814,
+            "word": "commerce"
+          },
+          {
+            "id": "breathe__air",
+            "score": 0.771592617,
+            "word": "breathe"
+          }
+        ]
+      },
+      {
+        "stem": "respiration__carbon_dioxide",
+        "analogy": "combustion__carbon_dioxide",
+        "retrieved": [
+          {
+            "id": "combustion__carbon_dioxide",
+            "score": 0.876065791,
+            "word": "combustion"
+          },
+          {
+            "id": "combustion__oxygen",
+            "score": 0.831064284,
+            "word": "combustion"
+          },
+          {
+            "id": "fission__energy",
+            "score": 0.813968599,
+            "word": "fission"
+          },
+          {
+            "id": "combustion__heat",
+            "score": 0.775941491,
+            "word": "combustion"
+          },
+          {
+            "id": "combustion__fuel",
+            "score": 0.742597282,
+            "word": "combustion"
+          }
+        ]
+      }
+    ]
+  },
+  "light": {
+    "true_label": "sound",
+    "pred_label": "blood",
+    "retrieved_set": [
+      {
+        "stem": "light__red",
+        "analogy": "sound__low",
+        "retrieved": [
+          {
+            "id": "blood__red",
+            "score": 0.918408275,
+            "word": "blood"
+          },
+          {
+            "id": "rose__red",
+            "score": 0.907845199,
+            "word": "rose"
+          },
+          {
+            "id": "cherry__red",
+            "score": 0.89835155,
+            "word": "cherry"
+          },
+          {
+            "id": "tomato__red",
+            "score": 0.897274673,
+            "word": "tomato"
+          },
+          {
+            "id": "apple__red",
+            "score": 0.893288493,
+            "word": "apple"
+          },
+          {
+            "id": "radish__red",
+            "score": 0.885134399,
+            "word": "radish"
+          }
+        ]
+      },
+      {
+        "stem": "light__violet",
+        "analogy": "sound__high",
+        "retrieved": [
+          {
+            "id": "rose__red",
+            "score": 0.76317054,
+            "word": "rose"
+          },
+          {
+            "id": "blood__red",
+            "score": 0.747673631,
+            "word": "blood"
+          },
+          {
+            "id": "ruby__red",
+            "score": 0.744511783,
+            "word": "ruby"
+          },
+          {
+            "id": "sapphire__blue",
+            "score": 0.736008942,
+            "word": "sapphire"
+          },
+          {
+            "id": "sea__blue",
+            "score": 0.734273076,
+            "word": "sea"
+          }
+        ]
+      },
+      {
+        "stem": "light__reflects",
+        "analogy": "sound__echoes",
+        "retrieved": [
+          {
+            "id": "waves__reflects",
+            "score": 0.840000272,
+            "word": "waves"
+          },
+          {
+            "id": "becomes__contains",
+            "score": 0.804168284,
+            "word": "becomes"
+          },
+          {
+            "id": "consists__includes",
+            "score": 0.801909208,
+            "word": "consists"
+          },
+          {
+            "id": "remains__remained",
+            "score": 0.786742687,
+            "word": "remains"
+          },
+          {
+            "id": "represent__represents",
+            "score": 0.785690844,
+            "word": "represent"
+          },
+          {
+            "id": "representing__represents",
+            "score": 0.78535,
+            "word": "representing"
+          }
+        ]
+      },
+      {
+        "stem": "light__bright",
+        "analogy": "sound__loud",
+        "retrieved": [
+          {
+            "id": "sound__loud",
+            "score": 0.895570159,
+            "word": "sound"
+          },
+          {
+            "id": "diamond__hard",
+            "score": 0.888354361,
+            "word": "diamond"
+          },
+          {
+            "id": "poison__toxic",
+            "score": 0.883302867,
+            "word": "poison"
+          },
+          {
+            "id": "grass__green",
+            "score": 0.865424871,
+            "word": "grass"
+          },
+          {
+            "id": "object__heavy",
+            "score": 0.86237359,
+            "word": "object"
+          },
+          {
+            "id": "sugar__sweet",
+            "score": 0.847983778,
+            "word": "sugar"
+          }
+        ]
+      },
+      {
+        "stem": "light__dim",
+        "analogy": "sound__quiet",
+        "retrieved": [
+          {
+            "id": "old__modern",
+            "score": 0.812527359,
+            "word": "old"
+          },
+          {
+            "id": "coarse__subtle",
+            "score": 0.78798908,
+            "word": "coarse"
+          },
+          {
+            "id": "apparent__rare",
+            "score": 0.774144411,
+            "word": "apparent"
+          },
+          {
+            "id": "bright__heavy",
+            "score": 0.773755968,
+            "word": "bright"
+          },
+          {
+            "id": "edible__poisonous",
+            "score": 0.770671964,
+            "word": "edible"
+          },
+          {
+            "id": "sunny__subtle",
+            "score": 0.770321667,
+            "word": "sunny"
+          }
+        ]
+      },
+      {
+        "stem": "light__lens",
+        "analogy": "sound__horn",
+        "retrieved": [
+          {
+            "id": "heat__radiator",
+            "score": 0.787943304,
+            "word": "heat"
+          },
+          {
+            "id": "photograph__camera",
+            "score": 0.785618246,
+            "word": "photograph"
+          },
+          {
+            "id": "candy__bottle",
+            "score": 0.753568709,
+            "word": "candy"
+          },
+          {
+            "id": "water_flow__bucket",
+            "score": 0.730851114,
+            "word": "water_flow"
+          },
+          {
+            "id": "water_flow__water_tower",
+            "score": 0.725056112,
+            "word": "water_flow"
+          },
+          {
+            "id": "blood__heart",
+            "score": 0.720233679,
+            "word": "blood"
+          }
+        ]
+      }
+    ]
+  },
+  "planet": {
+    "true_label": "projectile",
+    "pred_label": "projectile",
+    "retrieved_set": [
+      {
+        "stem": "planet__orbit",
+        "analogy": "projectile__trajectory",
+        "retrieved": [
+          {
+            "id": "projectile__trajectory",
+            "score": 0.767766833,
+            "word": "projectile"
+          },
+          {
+            "id": "solar_system__revolves",
+            "score": 0.686068058,
+            "word": "solar_system"
+          },
+          {
+            "id": "nation__outlook",
+            "score": 0.656870961,
+            "word": "nation"
+          },
+          {
+            "id": "mountain__peak",
+            "score": 0.640919507,
+            "word": "mountain"
+          },
+          {
+            "id": "illness__stage",
+            "score": 0.64026463,
+            "word": "illness"
+          }
+        ]
+      },
+      {
+        "stem": "planet__sun",
+        "analogy": "projectile__earth",
+        "retrieved": [
+          {
+            "id": "apple__sun",
+            "score": 0.756246269,
+            "word": "apple"
+          },
+          {
+            "id": "cow__pineapple",
+            "score": 0.728192925,
+            "word": "cow"
+          },
+          {
+            "id": "cloud__tomato",
+            "score": 0.716551781,
+            "word": "cloud"
+          },
+          {
+            "id": "kazakhstan__cuba",
+            "score": 0.713203847,
+            "word": "kazakhstan"
+          },
+          {
+            "id": "asteroid__planet",
+            "score": 0.709254,
+            "word": "asteroid"
+          },
+          {
+            "id": "cloud__ant",
+            "score": 0.702641428,
+            "word": "cloud"
+          }
+        ]
+      },
+      {
+        "stem": "planet__elliptical",
+        "analogy": "projectile__parabolic",
+        "retrieved": [
+          {
+            "id": "projectile__parabolic",
+            "score": 0.756784499,
+            "word": "projectile"
+          },
+          {
+            "id": "plant__tropical",
+            "score": 0.66994524,
+            "word": "plant"
+          },
+          {
+            "id": "ottawa__belgrade",
+            "score": 0.66866982,
+            "word": "ottawa"
+          },
+          {
+            "id": "cloud__white",
+            "score": 0.666417301,
+            "word": "cloud"
+          },
+          {
+            "id": "mixture__soluble",
+            "score": 0.663032591,
+            "word": "mixture"
+          },
+          {
+            "id": "oslo__belgrade",
+            "score": 0.659184039,
+            "word": "oslo"
+          }
+        ]
+      },
+      {
+        "stem": "planet__space",
+        "analogy": "projectile__air",
+        "retrieved": [
+          {
+            "id": "pig__sty",
+            "score": 0.688103735,
+            "word": "pig"
+          },
+          {
+            "id": "goldfish__pond",
+            "score": 0.680517554,
+            "word": "goldfish"
+          },
+          {
+            "id": "body__atmosphere",
+            "score": 0.672068954,
+            "word": "body"
+          },
+          {
+            "id": "steel__atmosphere",
+            "score": 0.669691563,
+            "word": "steel"
+          },
+          {
+            "id": "flower__soil",
+            "score": 0.657674074,
+            "word": "flower"
+          },
+          {
+            "id": "yacht__harbor",
+            "score": 0.656609476,
+            "word": "yacht"
+          }
+        ]
+      },
+      {
+        "stem": "planet__gravity",
+        "analogy": "projectile__gravity",
+        "retrieved": [
+          {
+            "id": "atom__electromagnetism",
+            "score": 0.835233748,
+            "word": "atom"
+          },
+          {
+            "id": "solar_system__gravity",
+            "score": 0.806499839,
+            "word": "solar_system"
+          },
+          {
+            "id": "god__wit",
+            "score": 0.735831439,
+            "word": "god"
+          },
+          {
+            "id": "woman__agency",
+            "score": 0.715567052,
+            "word": "woman"
+          },
+          {
+            "id": "woman__variety",
+            "score": 0.706844509,
+            "word": "woman"
+          },
+          {
+            "id": "projectile__gravity",
+            "score": 0.705310941,
+            "word": "projectile"
+          }
+        ]
+      },
+      {
+        "stem": "planet__attracts",
+        "analogy": "projectile__attracts",
+        "retrieved": [
+          {
+            "id": "atom__attracts",
+            "score": 0.884052098,
+            "word": "atom"
+          },
+          {
+            "id": "solar_system__attracts",
+            "score": 0.838846684,
+            "word": "solar_system"
+          },
+          {
+            "id": "becomes__contains",
+            "score": 0.749896049,
+            "word": "becomes"
+          },
+          {
+            "id": "light__reflects",
+            "score": 0.743359447,
+            "word": "light"
+          },
+          {
+            "id": "represents__creates",
+            "score": 0.707847595,
+            "word": "represents"
+          },
+          {
+            "id": "projectile__attracts",
+            "score": 0.688791752,
+            "word": "projectile"
+          }
+        ]
+      }
+    ]
+  },
+  "natural_selection": {
+    "true_label": "artificial_selection",
+    "pred_label": "artificial_selection",
+    "retrieved_set": [
+      {
+        "stem": "natural_selection__species",
+        "analogy": "artificial_selection__breeds",
+        "retrieved": [
+          {
+            "id": "artificial_selection__breeds",
+            "score": 0.908961594,
+            "word": "artificial_selection"
+          },
+          {
+            "id": "artificial_selection__popularity",
+            "score": 0.73452282,
+            "word": "artificial_selection"
+          },
+          {
+            "id": "artificial_selection__breeding",
+            "score": 0.713175595,
+            "word": "artificial_selection"
+          }
+        ]
+      },
+      {
+        "stem": "natural_selection__competition",
+        "analogy": "artificial_selection__selection",
+        "retrieved": [
+          {
+            "id": "innovation__collaboration",
+            "score": 0.727705538,
+            "word": "innovation"
+          },
+          {
+            "id": "hospitality__generosity",
+            "score": 0.696378708,
+            "word": "hospitality"
+          },
+          {
+            "id": "crime__poverty",
+            "score": 0.677264035,
+            "word": "crime"
+          },
+          {
+            "id": "hunger__scarcity",
+            "score": 0.65668422,
+            "word": "hunger"
+          }
+        ]
+      },
+      {
+        "stem": "natural_selection__adaptation",
+        "analogy": "artificial_selection__conformance",
+        "retrieved": [
+          {
+            "id": "artificial_selection__breeding",
+            "score": 0.779340625,
+            "word": "artificial_selection"
+          },
+          {
+            "id": "artificial_selection__conformance",
+            "score": 0.770641327,
+            "word": "artificial_selection"
+          }
+        ]
+      },
+      {
+        "stem": "natural_selection__natural",
+        "analogy": "artificial_selection__artificial",
+        "retrieved": [
+          {
+            "id": "artificial_selection__artificial",
+            "score": 0.827742815,
+            "word": "artificial_selection"
+          },
+          {
+            "id": "predict__predictable",
+            "score": 0.753153324,
+            "word": "predict"
+          },
+          {
+            "id": "alien__foreign",
+            "score": 0.72163254,
+            "word": "alien"
+          },
+          {
+            "id": "measure__equal",
+            "score": 0.721349776,
+            "word": "measure"
+          },
+          {
+            "id": "sustain__sustainable",
+            "score": 0.721138835,
+            "word": "sustain"
+          },
+          {
+            "id": "understanding__simple",
+            "score": 0.705324769,
+            "word": "understanding"
+          }
+        ]
+      },
+      {
+        "stem": "natural_selection__fitness",
+        "analogy": "artificial_selection__popularity",
+        "retrieved": [
+          {
+            "id": "artificial_selection__breeds",
+            "score": 0.798560441,
+            "word": "artificial_selection"
+          },
+          {
+            "id": "artificial_selection__popularity",
+            "score": 0.787331,
+            "word": "artificial_selection"
+          },
+          {
+            "id": "artificial_selection__conformance",
+            "score": 0.770253241,
+            "word": "artificial_selection"
+          }
+        ]
+      },
+      {
+        "stem": "natural_selection__mating",
+        "analogy": "artificial_selection__breeding",
+        "retrieved": [
+          {
+            "id": "artificial_selection__breeding",
+            "score": 0.770018041,
+            "word": "artificial_selection"
+          },
+          {
+            "id": "artificial_selection__conformance",
+            "score": 0.717744231,
+            "word": "artificial_selection"
+          }
+        ]
+      },
+      {
+        "stem": "natural_selection__wild",
+        "analogy": "artificial_selection__domesticated",
+        "retrieved": [
+          {
+            "id": "artificial_selection__domesticated",
+            "score": 0.690834403,
+            "word": "artificial_selection"
+          },
+          {
+            "id": "contamination__impure",
+            "score": 0.676306367,
+            "word": "contamination"
+          },
+          {
+            "id": "deflate__flat",
+            "score": 0.665230691,
+            "word": "deflate"
+          },
+          {
+            "id": "artificial_selection__popularity",
+            "score": 0.656406224,
+            "word": "artificial_selection"
+          },
+          {
+            "id": "fracture__separable",
+            "score": 0.637339115,
+            "word": "fracture"
+          }
+        ]
+      }
+    ]
+  },
+  "gas_molecules": {
+    "true_label": "billiard_balls",
+    "pred_label": "billiard_balls",
+    "retrieved_set": [
+      {
+        "stem": "gas_molecules__molecules",
+        "analogy": "billiard_balls__balls",
+        "retrieved": [
+          {
+            "id": "billiard_balls__balls",
+            "score": 0.807059228,
+            "word": "billiard_balls"
+          },
+          {
+            "id": "dollar__dollars",
+            "score": 0.786427617,
+            "word": "dollar"
+          },
+          {
+            "id": "community__communities",
+            "score": 0.775863767,
+            "word": "community"
+          },
+          {
+            "id": "army__armies",
+            "score": 0.775630534,
+            "word": "army"
+          },
+          {
+            "id": "country__countries",
+            "score": 0.775529146,
+            "word": "country"
+          },
+          {
+            "id": "society__societies",
+            "score": 0.771645904,
+            "word": "society"
+          }
+        ]
+      },
+      {
+        "stem": "gas_molecules__gas",
+        "analogy": "billiard_balls__billiards",
+        "retrieved": [
+          {
+            "id": "reasons_for_a_theory__reasons",
+            "score": 0.723028779,
+            "word": "reasons_for_a_theory"
+          },
+          {
+            "id": "cloth__fabric",
+            "score": 0.71080637,
+            "word": "cloth"
+          },
+          {
+            "id": "flower__bouquet",
+            "score": 0.69999069,
+            "word": "flower"
+          },
+          {
+            "id": "package__parcel",
+            "score": 0.696856201,
+            "word": "package"
+          },
+          {
+            "id": "dollars__bucks",
+            "score": 0.692964911,
+            "word": "dollars"
+          }
+        ]
+      },
+      {
+        "stem": "gas_molecules__temperature",
+        "analogy": "billiard_balls__speed",
+        "retrieved": [
+          {
+            "id": "billiard_balls__speed",
+            "score": 0.770600498,
+            "word": "billiard_balls"
+          },
+          {
+            "id": "projectile__trajectory",
+            "score": 0.675190508,
+            "word": "projectile"
+          },
+          {
+            "id": "microscope__size",
+            "score": 0.67128545,
+            "word": "microscope"
+          },
+          {
+            "id": "water_flow__pressure",
+            "score": 0.670289397,
+            "word": "water_flow"
+          },
+          {
+            "id": "audible__volume",
+            "score": 0.66103071,
+            "word": "audible"
+          },
+          {
+            "id": "precious__value",
+            "score": 0.653475463,
+            "word": "precious"
+          }
+        ]
+      },
+      {
+        "stem": "gas_molecules__container",
+        "analogy": "billiard_balls__table",
+        "retrieved": [
+          {
+            "id": "liquid__container",
+            "score": 0.917173803,
+            "word": "liquid"
+          },
+          {
+            "id": "flower__vase",
+            "score": 0.783839762,
+            "word": "flower"
+          },
+          {
+            "id": "beast__cage",
+            "score": 0.777280927,
+            "word": "beast"
+          },
+          {
+            "id": "flower__greenhouse",
+            "score": 0.769876063,
+            "word": "flower"
+          },
+          {
+            "id": "energy__category",
+            "score": 0.762624919,
+            "word": "energy"
+          },
+          {
+            "id": "sword__sheath",
+            "score": 0.760059059,
+            "word": "sword"
+          }
+        ]
+      },
+      {
+        "stem": "gas_molecules__pressing",
+        "analogy": "billiard_balls__bouncing",
+        "retrieved": [
+          {
+            "id": "hull__stirling",
+            "score": 0.716883,
+            "word": "hull"
+          },
+          {
+            "id": "liquid__pouring",
+            "score": 0.698849559,
+            "word": "liquid"
+          },
+          {
+            "id": "nottingham__stirling",
+            "score": 0.69782418,
+            "word": "nottingham"
+          },
+          {
+            "id": "waves__crashing",
+            "score": 0.65295577,
+            "word": "waves"
+          },
+          {
+            "id": "suffering__telling",
+            "score": 0.652098238,
+            "word": "suffering"
+          },
+          {
+            "id": "winchester__stirling",
+            "score": 0.634082735,
+            "word": "winchester"
+          }
+        ]
+      },
+      {
+        "stem": "gas_molecules__moving",
+        "analogy": "billiard_balls__moving",
+        "retrieved": [
+          {
+            "id": "billiard_balls__moving",
+            "score": 0.923663855,
+            "word": "billiard_balls"
+          },
+          {
+            "id": "billiard_balls__bouncing",
+            "score": 0.894179583,
+            "word": "billiard_balls"
+          },
+          {
+            "id": "slot_machine__spinning",
+            "score": 0.809442699,
+            "word": "slot_machine"
+          },
+          {
+            "id": "sounds__vibrating",
+            "score": 0.788294077,
+            "word": "sounds"
+          }
+        ]
+      },
+      {
+        "stem": "gas_molecules__cold",
+        "analogy": "billiard_balls__slow",
+        "retrieved": [
+          {
+            "id": "waves__rough",
+            "score": 0.784351707,
+            "word": "waves"
+          },
+          {
+            "id": "diamond__hard",
+            "score": 0.773065567,
+            "word": "diamond"
+          },
+          {
+            "id": "glacial__cold",
+            "score": 0.762322545,
+            "word": "glacial"
+          },
+          {
+            "id": "object__heavy",
+            "score": 0.760918677,
+            "word": "object"
+          }
+        ]
+      },
+      {
+        "stem": "gas_molecules__hot",
+        "analogy": "billiard_balls__fast",
+        "retrieved": [
+          {
+            "id": "object__heavy",
+            "score": 0.852224529,
+            "word": "object"
+          },
+          {
+            "id": "waves__rough",
+            "score": 0.836943,
+            "word": "waves"
+          },
+          {
+            "id": "diamond__hard",
+            "score": 0.827941775,
+            "word": "diamond"
+          },
+          {
+            "id": "leaves__green",
+            "score": 0.81985265,
+            "word": "leaves"
+          }
+        ]
+      }
+    ]
+  },
+  "mind": {
+    "true_label": "computer",
+    "pred_label": "computer",
+    "retrieved_set": [
+      {
+        "stem": "mind__thinking",
+        "analogy": "computer__processing",
+        "retrieved": [
+          {
+            "id": "computer__processing",
+            "score": 0.815021396,
+            "word": "computer"
+          },
+          {
+            "id": "machine__working",
+            "score": 0.745681345,
+            "word": "machine"
+          },
+          {
+            "id": "brain__intelligence",
+            "score": 0.742333412,
+            "word": "brain"
+          },
+          {
+            "id": "hearing__receiving",
+            "score": 0.721165776,
+            "word": "hearing"
+          }
+        ]
+      },
+      {
+        "stem": "mind__forgetting",
+        "analogy": "computer__erasing",
+        "retrieved": [
+          {
+            "id": "machine__breakdown",
+            "score": 0.733855426,
+            "word": "machine"
+          },
+          {
+            "id": "slot_machine__losing",
+            "score": 0.710037291,
+            "word": "slot_machine"
+          },
+          {
+            "id": "beast__killing",
+            "score": 0.707784295,
+            "word": "beast"
+          },
+          {
+            "id": "computer__erasing",
+            "score": 0.701515615,
+            "word": "computer"
+          }
+        ]
+      },
+      {
+        "stem": "mind__memorize",
+        "analogy": "computer__write",
+        "retrieved": [
+          {
+            "id": "auto__mend",
+            "score": 0.793845892,
+            "word": "auto"
+          },
+          {
+            "id": "computer__write",
+            "score": 0.78785181,
+            "word": "computer"
+          },
+          {
+            "id": "computer__read",
+            "score": 0.77923125,
+            "word": "computer"
+          },
+          {
+            "id": "liquid__flow",
+            "score": 0.752000809,
+            "word": "liquid"
+          }
+        ]
+      },
+      {
+        "stem": "mind__remember",
+        "analogy": "computer__read",
+        "retrieved": [
+          {
+            "id": "computer__write",
+            "score": 0.816435397,
+            "word": "computer"
+          },
+          {
+            "id": "computer__read",
+            "score": 0.806394279,
+            "word": "computer"
+          },
+          {
+            "id": "auto__mend",
+            "score": 0.775262594,
+            "word": "auto"
+          }
+        ]
+      },
+      {
+        "stem": "mind__memory",
+        "analogy": "computer__memory",
+        "retrieved": [
+          {
+            "id": "computer__memory",
+            "score": 0.863780618,
+            "word": "computer"
+          },
+          {
+            "id": "computer__data",
+            "score": 0.785692096,
+            "word": "computer"
+          },
+          {
+            "id": "computer__software",
+            "score": 0.776417136,
+            "word": "computer"
+          },
+          {
+            "id": "fingers__dreams",
+            "score": 0.768665671,
+            "word": "fingers"
+          }
+        ]
+      },
+      {
+        "stem": "mind__muscles",
+        "analogy": "computer__outputs",
+        "retrieved": [
+          {
+            "id": "soul__ego",
+            "score": 0.735987425,
+            "word": "soul"
+          },
+          {
+            "id": "bone__ego",
+            "score": 0.71232295,
+            "word": "bone"
+          },
+          {
+            "id": "body__atmosphere",
+            "score": 0.665918648,
+            "word": "body"
+          },
+          {
+            "id": "machine__eye",
+            "score": 0.665314436,
+            "word": "machine"
+          },
+          {
+            "id": "computer__brain",
+            "score": 0.653814375,
+            "word": "computer"
+          }
+        ]
+      },
+      {
+        "stem": "mind__senses",
+        "analogy": "computer__inputs",
+        "retrieved": [
+          {
+            "id": "computer__memory",
+            "score": 0.716336966,
+            "word": "computer"
+          },
+          {
+            "id": "fingers__dreams",
+            "score": 0.708300114,
+            "word": "fingers"
+          },
+          {
+            "id": "computer__outputs",
+            "score": 0.707696319,
+            "word": "computer"
+          }
+        ]
+      },
+      {
+        "stem": "mind__mistake",
+        "analogy": "computer__bug",
+        "retrieved": [
+          {
+            "id": "industry__loss",
+            "score": 0.743332684,
+            "word": "industry"
+          },
+          {
+            "id": "machine__breakdown",
+            "score": 0.726941407,
+            "word": "machine"
+          },
+          {
+            "id": "nation__crime",
+            "score": 0.719546735,
+            "word": "nation"
+          },
+          {
+            "id": "inept__mistake",
+            "score": 0.698943436,
+            "word": "inept"
+          },
+          {
+            "id": "computer__bug",
+            "score": 0.685704529,
+            "word": "computer"
+          }
+        ]
+      }
+    ]
+  },
+  "bacterial_mutation": {
+    "true_label": "slot_machine",
+    "pred_label": "alteration",
+    "retrieved_set": [
+      {
+        "stem": "bacterial_mutation__bacteria",
+        "analogy": "slot_machine__slot_machines",
+        "retrieved": [
+          {
+            "id": "distortion__image",
+            "score": 0.850542307,
+            "word": "distortion"
+          },
+          {
+            "id": "alteration__suit",
+            "score": 0.837613225,
+            "word": "alteration"
+          },
+          {
+            "id": "distort__image",
+            "score": 0.783819914,
+            "word": "distort"
+          },
+          {
+            "id": "scuff__furniture",
+            "score": 0.77976191,
+            "word": "scuff"
+          },
+          {
+            "id": "revision__story",
+            "score": 0.766746759,
+            "word": "revision"
+          }
+        ]
+      },
+      {
+        "stem": "bacterial_mutation__genes",
+        "analogy": "slot_machine__reels",
+        "retrieved": [
+          {
+            "id": "fracture__bones",
+            "score": 0.84957093,
+            "word": "fracture"
+          },
+          {
+            "id": "distortion__image",
+            "score": 0.796506166,
+            "word": "distortion"
+          },
+          {
+            "id": "scuff__furniture",
+            "score": 0.773249,
+            "word": "scuff"
+          },
+          {
+            "id": "error__spine",
+            "score": 0.76568985,
+            "word": "error"
+          },
+          {
+            "id": "alteration__suit",
+            "score": 0.764514446,
+            "word": "alteration"
+          }
+        ]
+      },
+      {
+        "stem": "bacterial_mutation__mutating",
+        "analogy": "slot_machine__spinning",
+        "retrieved": [
+          {
+            "id": "remain__remaining",
+            "score": 0.814480245,
+            "word": "remain"
+          },
+          {
+            "id": "develop__developing",
+            "score": 0.800085306,
+            "word": "develop"
+          },
+          {
+            "id": "move__moving",
+            "score": 0.793809593,
+            "word": "move"
+          },
+          {
+            "id": "appear__appearing",
+            "score": 0.79293251,
+            "word": "appear"
+          },
+          {
+            "id": "add__adding",
+            "score": 0.780253768,
+            "word": "add"
+          },
+          {
+            "id": "generate__generating",
+            "score": 0.780072,
+            "word": "generate"
+          }
+        ]
+      },
+      {
+        "stem": "bacterial_mutation__reproducing",
+        "analogy": "slot_machine__winning",
+        "retrieved": [
+          {
+            "id": "reducing__representing",
+            "score": 0.664648652,
+            "word": "reducing"
+          },
+          {
+            "id": "virus__reproduction",
+            "score": 0.656746328,
+            "word": "virus"
+          },
+          {
+            "id": "publishing__remaining",
+            "score": 0.655829132,
+            "word": "publishing"
+          },
+          {
+            "id": "slowing__inventing",
+            "score": 0.641740918,
+            "word": "slowing"
+          },
+          {
+            "id": "impediments_to_travel__travelling",
+            "score": 0.628870189,
+            "word": "impediments_to_travel"
+          }
+        ]
+      },
+      {
+        "stem": "bacterial_mutation__dying",
+        "analogy": "slot_machine__losing",
+        "retrieved": [
+          {
+            "id": "allowing__improving",
+            "score": 0.712673545,
+            "word": "allowing"
+          },
+          {
+            "id": "combustion__burning",
+            "score": 0.698398411,
+            "word": "combustion"
+          },
+          {
+            "id": "illness__death",
+            "score": 0.691758156,
+            "word": "illness"
+          },
+          {
+            "id": "vanish__vanishing",
+            "score": 0.66741538,
+            "word": "vanish"
+          }
+        ]
+      }
+    ]
+  },
+  "argument": {
+    "true_label": "war",
+    "pred_label": "theory",
+    "retrieved_set": [
+      {
+        "stem": "argument__debater",
+        "analogy": "war__soldier",
+        "retrieved": [
+          {
+            "id": "song__musician",
+            "score": 0.932775319,
+            "word": "song"
+          },
+          {
+            "id": "pitch__salesman",
+            "score": 0.918521762,
+            "word": "pitch"
+          },
+          {
+            "id": "research__researcher",
+            "score": 0.917726696,
+            "word": "research"
+          },
+          {
+            "id": "contract__lawyer",
+            "score": 0.909874201,
+            "word": "contract"
+          },
+          {
+            "id": "painting__artist",
+            "score": 0.905118346,
+            "word": "painting"
+          },
+          {
+            "id": "sketch__artist",
+            "score": 0.899695158,
+            "word": "sketch"
+          }
+        ]
+      },
+      {
+        "stem": "argument__refute",
+        "analogy": "war__destroy",
+        "retrieved": [
+          {
+            "id": "theory__refute",
+            "score": 0.945340455,
+            "word": "theory"
+          },
+          {
+            "id": "writing__erase",
+            "score": 0.819438577,
+            "word": "writing"
+          },
+          {
+            "id": "mountain__climb",
+            "score": 0.807311952,
+            "word": "mountain"
+          },
+          {
+            "id": "hill__climb",
+            "score": 0.793194115,
+            "word": "hill"
+          },
+          {
+            "id": "license__revoke",
+            "score": 0.785271227,
+            "word": "license"
+          },
+          {
+            "id": "poison__ingest",
+            "score": 0.745547056,
+            "word": "poison"
+          }
+        ]
+      },
+      {
+        "stem": "argument__arguing",
+        "analogy": "war__fighting",
+        "retrieved": [
+          {
+            "id": "require__requiring",
+            "score": 0.861418545,
+            "word": "require"
+          },
+          {
+            "id": "describe__describing",
+            "score": 0.854022384,
+            "word": "describe"
+          },
+          {
+            "id": "represent__representing",
+            "score": 0.85102272,
+            "word": "represent"
+          },
+          {
+            "id": "apply__applying",
+            "score": 0.846377432,
+            "word": "apply"
+          },
+          {
+            "id": "shuffle__shuffling",
+            "score": 0.842607856,
+            "word": "shuffle"
+          },
+          {
+            "id": "establish__establishing",
+            "score": 0.838452399,
+            "word": "establish"
+          }
+        ]
+      },
+      {
+        "stem": "argument__acceptance",
+        "analogy": "war__defeat",
+        "retrieved": [
+          {
+            "id": "story__success",
+            "score": 0.804691732,
+            "word": "story"
+          },
+          {
+            "id": "promise__advancement",
+            "score": 0.790602624,
+            "word": "promise"
+          },
+          {
+            "id": "career__success",
+            "score": 0.771382213,
+            "word": "career"
+          },
+          {
+            "id": "signal__reception",
+            "score": 0.762990952,
+            "word": "signal"
+          },
+          {
+            "id": "debate__knowledge",
+            "score": 0.761881769,
+            "word": "debate"
+          }
+        ]
+      },
+      {
+        "stem": "argument__criticizes",
+        "analogy": "war__attacks",
+        "retrieved": [
+          {
+            "id": "announces__refers",
+            "score": 0.779118896,
+            "word": "announces"
+          },
+          {
+            "id": "introduces__intends",
+            "score": 0.760875165,
+            "word": "introduces"
+          },
+          {
+            "id": "advertising__describing",
+            "score": 0.745264351,
+            "word": "advertising"
+          },
+          {
+            "id": "consists__describes",
+            "score": 0.737388194,
+            "word": "consists"
+          },
+          {
+            "id": "eulogy__praise",
+            "score": 0.736021101,
+            "word": "eulogy"
+          }
+        ]
+      },
+      {
+        "stem": "argument__logic",
+        "analogy": "war__weapon",
+        "retrieved": [
+          {
+            "id": "theory__logic",
+            "score": 0.943577409,
+            "word": "theory"
+          },
+          {
+            "id": "poetry__rhythm",
+            "score": 0.766661763,
+            "word": "poetry"
+          },
+          {
+            "id": "tattoo__design",
+            "score": 0.760764241,
+            "word": "tattoo"
+          },
+          {
+            "id": "theory__relation",
+            "score": 0.757773757,
+            "word": "theory"
+          },
+          {
+            "id": "oration__formality",
+            "score": 0.757721484,
+            "word": "oration"
+          }
+        ]
+      }
+    ]
+  },
+  "accepting_a_belief": {
+    "true_label": "buying_an_item",
+    "pred_label": "appearing",
+    "retrieved_set": [
+      {
+        "stem": "accepting_a_belief__believer",
+        "analogy": "buying_an_item__buyer",
+        "retrieved": [
+          {
+            "id": "believe__believer",
+            "score": 0.849616706,
+            "word": "believe"
+          },
+          {
+            "id": "listen__listener",
+            "score": 0.79774785,
+            "word": "listen"
+          },
+          {
+            "id": "achieve__achiever",
+            "score": 0.787206948,
+            "word": "achieve"
+          },
+          {
+            "id": "contend__contender",
+            "score": 0.786010444,
+            "word": "contend"
+          },
+          {
+            "id": "hear__listener",
+            "score": 0.780811667,
+            "word": "hear"
+          },
+          {
+            "id": "faith__follower",
+            "score": 0.778613627,
+            "word": "faith"
+          }
+        ]
+      },
+      {
+        "stem": "accepting_a_belief__belief",
+        "analogy": "buying_an_item__merchandise",
+        "retrieved": [
+          {
+            "id": "entitle__entitlement",
+            "score": 0.774117,
+            "word": "entitle"
+          },
+          {
+            "id": "commit__commitment",
+            "score": 0.755171299,
+            "word": "commit"
+          },
+          {
+            "id": "utilize__utilization",
+            "score": 0.731288,
+            "word": "utilize"
+          },
+          {
+            "id": "admire__admiration",
+            "score": 0.711924732,
+            "word": "admire"
+          },
+          {
+            "id": "realize__realization",
+            "score": 0.711880624,
+            "word": "realize"
+          },
+          {
+            "id": "amend__agreement",
+            "score": 0.707408428,
+            "word": "amend"
+          }
+        ]
+      },
+      {
+        "stem": "accepting_a_belief__accepting",
+        "analogy": "buying_an_item__buying",
+        "retrieved": [
+          {
+            "id": "expect__expecting",
+            "score": 0.828422427,
+            "word": "expect"
+          },
+          {
+            "id": "assist__helpful",
+            "score": 0.796811759,
+            "word": "assist"
+          },
+          {
+            "id": "involving__considering",
+            "score": 0.791890144,
+            "word": "involving"
+          },
+          {
+            "id": "buying_an_item__buying",
+            "score": 0.78976053,
+            "word": "buying_an_item"
+          },
+          {
+            "id": "agreeing__agreed",
+            "score": 0.783588171,
+            "word": "agreeing"
+          },
+          {
+            "id": "advise__advisable",
+            "score": 0.779533088,
+            "word": "advise"
+          }
+        ]
+      },
+      {
+        "stem": "accepting_a_belief__advocating",
+        "analogy": "buying_an_item__selling",
+        "retrieved": [
+          {
+            "id": "appearing__proposing",
+            "score": 0.866403341,
+            "word": "appearing"
+          },
+          {
+            "id": "introducing__providing",
+            "score": 0.848788142,
+            "word": "introducing"
+          },
+          {
+            "id": "thanking__suggesting",
+            "score": 0.848351717,
+            "word": "thanking"
+          },
+          {
+            "id": "depending__suggesting",
+            "score": 0.846556,
+            "word": "depending"
+          },
+          {
+            "id": "appearing__asking",
+            "score": 0.840433359,
+            "word": "appearing"
+          },
+          {
+            "id": "expecting__applying",
+            "score": 0.833902478,
+            "word": "expecting"
+          }
+        ]
+      },
+      {
+        "stem": "accepting_a_belief__rejecting",
+        "analogy": "buying_an_item__returning",
+        "retrieved": [
+          {
+            "id": "generating__shrinking",
+            "score": 0.835940719,
+            "word": "generating"
+          },
+          {
+            "id": "employ__dismiss",
+            "score": 0.809851348,
+            "word": "employ"
+          },
+          {
+            "id": "avoid__recommend",
+            "score": 0.800553858,
+            "word": "avoid"
+          },
+          {
+            "id": "receive__lose",
+            "score": 0.792394817,
+            "word": "receive"
+          },
+          {
+            "id": "ingest__reject",
+            "score": 0.785079718,
+            "word": "ingest"
+          },
+          {
+            "id": "allege__deny",
+            "score": 0.781816721,
+            "word": "allege"
+          }
+        ]
+      },
+      {
+        "stem": "accepting_a_belief__true",
+        "analogy": "buying_an_item__valuable",
+        "retrieved": [
+          {
+            "id": "climb__true",
+            "score": 0.819382727,
+            "word": "climb"
+          },
+          {
+            "id": "demand__due",
+            "score": 0.791674733,
+            "word": "demand"
+          },
+          {
+            "id": "dynamic__true",
+            "score": 0.791274786,
+            "word": "dynamic"
+          },
+          {
+            "id": "foresee__foreseeable",
+            "score": 0.778989911,
+            "word": "foresee"
+          },
+          {
+            "id": "rely__reliable",
+            "score": 0.774794936,
+            "word": "rely"
+          },
+          {
+            "id": "deduction__rational",
+            "score": 0.774507523,
+            "word": "deduction"
+          }
+        ]
+      },
+      {
+        "stem": "accepting_a_belief__false",
+        "analogy": "buying_an_item__worthless",
+        "retrieved": [
+          {
+            "id": "seeing__hidden",
+            "score": 0.699871302,
+            "word": "seeing"
+          },
+          {
+            "id": "protect__dangerous",
+            "score": 0.682274818,
+            "word": "protect"
+          },
+          {
+            "id": "following__lost",
+            "score": 0.672903955,
+            "word": "following"
+          },
+          {
+            "id": "convincing__known",
+            "score": 0.668495953,
+            "word": "convincing"
+          },
+          {
+            "id": "buying_an_item__worthless",
+            "score": 0.667582154,
+            "word": "buying_an_item"
+          }
+        ]
+      }
+    ]
+  },
+  "reasons_for_a_theory": {
+    "true_label": "grounds_for_a_building",
+    "pred_label": "understanding",
+    "retrieved_set": [
+      {
+        "stem": "reasons_for_a_theory__reasons",
+        "analogy": "grounds_for_a_building__foundations",
+        "retrieved": [
+          {
+            "id": "clothes__clothing",
+            "score": 0.82053,
+            "word": "clothes"
+          },
+          {
+            "id": "story__stories",
+            "score": 0.812614918,
+            "word": "story"
+          },
+          {
+            "id": "policy__policies",
+            "score": 0.812592447,
+            "word": "policy"
+          },
+          {
+            "id": "application__applications",
+            "score": 0.812299788,
+            "word": "application"
+          },
+          {
+            "id": "impediments_to_travel__obstructions",
+            "score": 0.807103097,
+            "word": "impediments_to_travel"
+          }
+        ]
+      },
+      {
+        "stem": "reasons_for_a_theory__theories",
+        "analogy": "grounds_for_a_building__buildings",
+        "retrieved": [
+          {
+            "id": "idea__theory",
+            "score": 0.745530069,
+            "word": "idea"
+          },
+          {
+            "id": "basis__category",
+            "score": 0.729777098,
+            "word": "basis"
+          },
+          {
+            "id": "code__coding",
+            "score": 0.729539633,
+            "word": "code"
+          },
+          {
+            "id": "story__building",
+            "score": 0.72422564,
+            "word": "story"
+          },
+          {
+            "id": "code__malware",
+            "score": 0.722283721,
+            "word": "code"
+          }
+        ]
+      },
+      {
+        "stem": "reasons_for_a_theory__confirming",
+        "analogy": "grounds_for_a_building__supporting",
+        "retrieved": [
+          {
+            "id": "understanding__requiring",
+            "score": 0.781318903,
+            "word": "understanding"
+          },
+          {
+            "id": "discovering__enhancing",
+            "score": 0.763341486,
+            "word": "discovering"
+          },
+          {
+            "id": "idea__persuading",
+            "score": 0.761338294,
+            "word": "idea"
+          },
+          {
+            "id": "knowing__enhancing",
+            "score": 0.760930896,
+            "word": "knowing"
+          },
+          {
+            "id": "understanding__providing",
+            "score": 0.748277843,
+            "word": "understanding"
+          },
+          {
+            "id": "understanding__containing",
+            "score": 0.746311188,
+            "word": "understanding"
+          }
+        ]
+      },
+      {
+        "stem": "reasons_for_a_theory__rational",
+        "analogy": "grounds_for_a_building__solid",
+        "retrieved": [
+          {
+            "id": "deduction__rational",
+            "score": 0.842221141,
+            "word": "deduction"
+          },
+          {
+            "id": "ideas__productive",
+            "score": 0.805372655,
+            "word": "ideas"
+          },
+          {
+            "id": "grounds_for_a_building__solid",
+            "score": 0.784804404,
+            "word": "grounds_for_a_building"
+          },
+          {
+            "id": "logical__consistent",
+            "score": 0.78336066,
+            "word": "logical"
+          },
+          {
+            "id": "directed__distinctive",
+            "score": 0.78147161,
+            "word": "directed"
+          },
+          {
+            "id": "seeds__fruitful",
+            "score": 0.78030467,
+            "word": "seeds"
+          }
+        ]
+      },
+      {
+        "stem": "reasons_for_a_theory__dubious",
+        "analogy": "grounds_for_a_building__weak",
+        "retrieved": [
+          {
+            "id": "impossible__unethical",
+            "score": 0.774367571,
+            "word": "impossible"
+          },
+          {
+            "id": "unlikely__unethical",
+            "score": 0.755911887,
+            "word": "unlikely"
+          },
+          {
+            "id": "uncertain__unpleasant",
+            "score": 0.738692701,
+            "word": "uncertain"
+          },
+          {
+            "id": "obvious__deceptive",
+            "score": 0.732664,
+            "word": "obvious"
+          },
+          {
+            "id": "unclear__inconvenient",
+            "score": 0.727036834,
+            "word": "unclear"
+          }
+        ]
+      },
+      {
+        "stem": "reasons_for_a_theory__flaw",
+        "analogy": "grounds_for_a_building__crack",
+        "retrieved": [
+          {
+            "id": "journey__obstacle",
+            "score": 0.683192968,
+            "word": "journey"
+          },
+          {
+            "id": "argument__loss",
+            "score": 0.66696775,
+            "word": "argument"
+          },
+          {
+            "id": "stump__answer",
+            "score": 0.656381249,
+            "word": "stump"
+          },
+          {
+            "id": "crime__education",
+            "score": 0.653001904,
+            "word": "crime"
+          },
+          {
+            "id": "mirth__effort",
+            "score": 0.651543081,
+            "word": "mirth"
+          },
+          {
+            "id": "error__effort",
+            "score": 0.651256,
+            "word": "error"
+          }
+        ]
+      }
+    ]
+  },
+  "difficulties": {
+    "true_label": "impediments_to_travel",
+    "pred_label": "friction",
+    "retrieved_set": [
+      {
+        "stem": "difficulties__difficulties",
+        "analogy": "impediments_to_travel__obstructions",
+        "retrieved": [
+          {
+            "id": "difference__differences",
+            "score": 0.867206454,
+            "word": "difference"
+          },
+          {
+            "id": "food__food",
+            "score": 0.858163238,
+            "word": "food"
+          },
+          {
+            "id": "virus__virus",
+            "score": 0.853473246,
+            "word": "virus"
+          },
+          {
+            "id": "improve__improves",
+            "score": 0.827471137,
+            "word": "improve"
+          },
+          {
+            "id": "spending__spends",
+            "score": 0.823839545,
+            "word": "spending"
+          },
+          {
+            "id": "improving__improves",
+            "score": 0.820522487,
+            "word": "improving"
+          }
+        ]
+      },
+      {
+        "stem": "difficulties__goal",
+        "analogy": "impediments_to_travel__destination",
+        "retrieved": [
+          {
+            "id": "impediments_to_travel__destination",
+            "score": 0.838808477,
+            "word": "impediments_to_travel"
+          },
+          {
+            "id": "friction__faith",
+            "score": 0.811576545,
+            "word": "friction"
+          },
+          {
+            "id": "friction__wit",
+            "score": 0.780576289,
+            "word": "friction"
+          },
+          {
+            "id": "hinder__destination",
+            "score": 0.765901864,
+            "word": "hinder"
+          }
+        ]
+      },
+      {
+        "stem": "difficulties__plan",
+        "analogy": "impediments_to_travel__route",
+        "retrieved": [
+          {
+            "id": "friction__faith",
+            "score": 0.790486097,
+            "word": "friction"
+          },
+          {
+            "id": "friction__wit",
+            "score": 0.778322637,
+            "word": "friction"
+          },
+          {
+            "id": "discrepancy__account",
+            "score": 0.760558903,
+            "word": "discrepancy"
+          },
+          {
+            "id": "error__expression",
+            "score": 0.7597754,
+            "word": "error"
+          }
+        ]
+      },
+      {
+        "stem": "difficulties__person",
+        "analogy": "impediments_to_travel__traveller",
+        "retrieved": [
+          {
+            "id": "skill__person",
+            "score": 0.767484069,
+            "word": "skill"
+          },
+          {
+            "id": "poverty__citizen",
+            "score": 0.747328639,
+            "word": "poverty"
+          },
+          {
+            "id": "passion__enthusiast",
+            "score": 0.709964,
+            "word": "passion"
+          },
+          {
+            "id": "disease__patient",
+            "score": 0.692889869,
+            "word": "disease"
+          },
+          {
+            "id": "division__spouse",
+            "score": 0.689353168,
+            "word": "division"
+          }
+        ]
+      },
+      {
+        "stem": "difficulties__problem_solving",
+        "analogy": "impediments_to_travel__travelling",
+        "retrieved": [
+          {
+            "id": "disease__surgery",
+            "score": 0.825617254,
+            "word": "disease"
+          },
+          {
+            "id": "crime__arrest",
+            "score": 0.811959624,
+            "word": "crime"
+          },
+          {
+            "id": "crime__execution",
+            "score": 0.780976653,
+            "word": "crime"
+          },
+          {
+            "id": "disease__quarantine",
+            "score": 0.776265085,
+            "word": "disease"
+          },
+          {
+            "id": "illness__medicine",
+            "score": 0.775678754,
+            "word": "illness"
+          },
+          {
+            "id": "crime__prison",
+            "score": 0.763647437,
+            "word": "crime"
+          }
+        ]
+      },
+      {
+        "stem": "difficulties__partner",
+        "analogy": "impediments_to_travel__companion",
+        "retrieved": [
+          {
+            "id": "division__spouse",
+            "score": 0.852550626,
+            "word": "division"
+          },
+          {
+            "id": "contradiction__investigator",
+            "score": 0.849464715,
+            "word": "contradiction"
+          },
+          {
+            "id": "disease__patient",
+            "score": 0.816417694,
+            "word": "disease"
+          },
+          {
+            "id": "illness__patient",
+            "score": 0.809847176,
+            "word": "illness"
+          },
+          {
+            "id": "impediments_to_travel__traveller",
+            "score": 0.800569713,
+            "word": "impediments_to_travel"
+          },
+          {
+            "id": "poverty__citizen",
+            "score": 0.782080054,
+            "word": "poverty"
+          }
+        ]
+      },
+      {
+        "stem": "difficulties__succeeding",
+        "analogy": "impediments_to_travel__arriving",
+        "retrieved": [
+          {
+            "id": "impediments_to_travel__travelling",
+            "score": 0.847910523,
+            "word": "impediments_to_travel"
+          },
+          {
+            "id": "impediments_to_travel__arriving",
+            "score": 0.841166675,
+            "word": "impediments_to_travel"
+          },
+          {
+            "id": "friction__wit",
+            "score": 0.789247155,
+            "word": "friction"
+          },
+          {
+            "id": "impediments_to_travel__destination",
+            "score": 0.760080338,
+            "word": "impediments_to_travel"
+          }
+        ]
+      }
+    ]
+  },
+  "time": {
+    "true_label": "money",
+    "pred_label": "expire",
+    "retrieved_set": [
+      {
+        "stem": "time__invest",
+        "analogy": "money__allocate",
+        "retrieved": [
+          {
+            "id": "seem__learn",
+            "score": 0.763267934,
+            "word": "seem"
+          },
+          {
+            "id": "expire__improvize",
+            "score": 0.758928418,
+            "word": "expire"
+          },
+          {
+            "id": "expire__minimize",
+            "score": 0.745920837,
+            "word": "expire"
+          },
+          {
+            "id": "day__comb",
+            "score": 0.721535444,
+            "word": "day"
+          },
+          {
+            "id": "expire__observe",
+            "score": 0.693160474,
+            "word": "expire"
+          },
+          {
+            "id": "expire__configure",
+            "score": 0.684850633,
+            "word": "expire"
+          }
+        ]
+      },
+      {
+        "stem": "time__schedule",
+        "analogy": "money__budget",
+        "retrieved": [
+          {
+            "id": "period__fact",
+            "score": 0.768354,
+            "word": "period"
+          },
+          {
+            "id": "direction__sign",
+            "score": 0.695018172,
+            "word": "direction"
+          },
+          {
+            "id": "mean__gauge",
+            "score": 0.689611554,
+            "word": "mean"
+          },
+          {
+            "id": "day__filename",
+            "score": 0.685535908,
+            "word": "day"
+          },
+          {
+            "id": "journey__path",
+            "score": 0.683165729,
+            "word": "journey"
+          },
+          {
+            "id": "ruth__thought",
+            "score": 0.672676563,
+            "word": "ruth"
+          }
+        ]
+      },
+      {
+        "stem": "time__efficient",
+        "analogy": "money__effective",
+        "retrieved": [
+          {
+            "id": "dinner__strong",
+            "score": 0.717607796,
+            "word": "dinner"
+          },
+          {
+            "id": "dinner__unhappy",
+            "score": 0.6918419,
+            "word": "dinner"
+          },
+          {
+            "id": "most__calm",
+            "score": 0.686930835,
+            "word": "most"
+          },
+          {
+            "id": "shore__organized",
+            "score": 0.67693603,
+            "word": "shore"
+          }
+        ]
+      },
+      {
+        "stem": "time__quick",
+        "analogy": "money__cheap",
+        "retrieved": [
+          {
+            "id": "play__slow",
+            "score": 0.739267,
+            "word": "play"
+          },
+          {
+            "id": "money__cheap",
+            "score": 0.715341032,
+            "word": "money"
+          },
+          {
+            "id": "bad__soon",
+            "score": 0.714859188,
+            "word": "bad"
+          },
+          {
+            "id": "billiard_balls__slow",
+            "score": 0.71476233,
+            "word": "billiard_balls"
+          }
+        ]
+      },
+      {
+        "stem": "time__slow",
+        "analogy": "money__expensive",
+        "retrieved": [
+          {
+            "id": "play__slow",
+            "score": 0.791606367,
+            "word": "play"
+          },
+          {
+            "id": "decrease__slow",
+            "score": 0.782059133,
+            "word": "decrease"
+          },
+          {
+            "id": "billiard_balls__slow",
+            "score": 0.775509477,
+            "word": "billiard_balls"
+          },
+          {
+            "id": "sound__low",
+            "score": 0.752663374,
+            "word": "sound"
+          }
+        ]
+      }
+    ]
+  },
+  "ideas": {
+    "true_label": "seeds",
+    "pred_label": "seeds",
+    "retrieved_set": [
+      {
+        "stem": "ideas__inspired",
+        "analogy": "seeds__planted",
+        "retrieved": [
+          {
+            "id": "seeds__planted",
+            "score": 0.771210849,
+            "word": "seeds"
+          },
+          {
+            "id": "seeds__fruitful",
+            "score": 0.764145315,
+            "word": "seeds"
+          },
+          {
+            "id": "water__irrigated",
+            "score": 0.757877648,
+            "word": "water"
+          },
+          {
+            "id": "medicine__prescribed",
+            "score": 0.749223351,
+            "word": "medicine"
+          },
+          {
+            "id": "conscious__published",
+            "score": 0.74535048,
+            "word": "conscious"
+          }
+        ]
+      },
+      {
+        "stem": "ideas__productive",
+        "analogy": "seeds__fruitful",
+        "retrieved": [
+          {
+            "id": "seeds__fruitful",
+            "score": 0.879687607,
+            "word": "seeds"
+          },
+          {
+            "id": "idea__important",
+            "score": 0.810310781,
+            "word": "idea"
+          },
+          {
+            "id": "reasons_for_a_theory__rational",
+            "score": 0.805372655,
+            "word": "reasons_for_a_theory"
+          },
+          {
+            "id": "money__effective",
+            "score": 0.799297273,
+            "word": "money"
+          },
+          {
+            "id": "fixed__helpful",
+            "score": 0.792498,
+            "word": "fixed"
+          }
+        ]
+      }
+    ]
+  }
+}
