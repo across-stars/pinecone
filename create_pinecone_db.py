@@ -3,36 +3,41 @@ import pinecone
 import logging
 import time
 
-GLOVE_FILE = "glove42/glove.42B.300d.txt"
-BUF_SIZE = 400_000 # ~154 lines
-#BUF_SIZE = 260_000 # ~100 lines
-#BUF_SIZE = 1040 # ~1 line
+#INPUT_FILE = "glove42/glove.42B.300d.txt"
+INPUT_FILE = "/scratch/gpfs/mb5157/cos597a/data/relbert_1024d.txt"
+BUF_SIZE = 100_000
+#BUF_SIZE = 400_000 # ~154 lines for Glove
+#BUF_SIZE = 1040 # ~1 line for Glove
 NUM_CHUNKS_TO_READ = None # set to None to read the whole file
+dim = 1024
+log_file = "relbert_err.txt"
 clear_log = True
-index_name = 'glove40'
+
+# index_name = 'glove40'
+index_name = 'relbert'
 
 if clear_log:
-    with open('error_log.txt', 'w'):
+    with open(log_file, 'w'):
         pass
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
-file_handler = logging.FileHandler('error_log.txt', encoding='utf-8')
+file_handler = logging.FileHandler(log_file, encoding='utf-8')
 formatter = logging.Formatter('%(levelname)s %(message)s')
 file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
 
-print(f"log file: error_log.txt")
+print(f"log file: {log_file}")
 
 pinecone.init(api_key=os.environ.get("PINECONE_API_KEY"),
         environment=os.environ.get("PINECONE_ENVIRONMENT")
         )
 
-if not os.path.exists(GLOVE_FILE):
-    raise FileNotFoundError(f"check that {GLOVE_FILE} exists")
+if not os.path.exists(INPUT_FILE):
+    raise FileNotFoundError(f"check that {INPUT_FILE} exists")
 
 if index_name not in pinecone.list_indexes():
-    pinecone.create_index(index_name, dimension=300, metric='cosine')
+    pinecone.create_index(index_name, dimension=dim, metric='cosine')
 index = pinecone.Index(index_name)
 
 def read_file_chunk(file, stop=None, buf_size=BUF_SIZE):
@@ -45,7 +50,7 @@ def read_file_chunk(file, stop=None, buf_size=BUF_SIZE):
         cnt += 1
 
 
-embedding_file =  open(GLOVE_FILE, 'r')
+embedding_file =  open(INPUT_FILE, 'r')
 missed_embedding_cnt = 0
 line_cnt = 0
 start_time_total = time.time()
