@@ -4,7 +4,7 @@ import logging
 import time
 
 #INPUT_FILE = "glove42/glove.42B.300d.txt"
-INPUT_FILE = "/scratch/gpfs/mb5157/cos597a/data/relbert_1024d.txt"
+INPUT_FILE = "/scratch/gpfs/mb5157/cos597a/relbert_missing.txt"
 BUF_SIZE = 100_000
 #BUF_SIZE = 400_000 # ~154 lines for Glove
 #BUF_SIZE = 1040 # ~1 line for Glove
