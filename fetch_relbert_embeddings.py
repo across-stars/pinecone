@@ -4,6 +4,7 @@ import os
 from gensim.models import KeyedVectors
 import pandas as pd
 from utils import DATASETS
+import sys
 
 # Set this to True if you want to add the base vocab to the vocab
 ADD_BASE_VOCAB = False
@@ -27,8 +28,9 @@ for name,dataset in DATASETS.items():
             for line in file:
                 data = json.loads(line)
                 stem = data.get('stem', [])
+                choices = data.get('choice', [[]])
                 queries.append(stem)
-
+                queries.extend(choices)
     relbert_embeddings += model.get_embedding(queries, batch_size=32)
     
     # join the words in a query if there are multiple words
@@ -59,15 +61,16 @@ print(f"Writing embeddings to file...")
 MAX_NUM_WORDS = 100000
 idx = 1
 vocab = set()
-with open("relbert_scan.txt", 'w', encoding='utf-8') as f:
+with open("relbert_missing2.txt", 'w', encoding='utf-8') as f:
     for word,embedding in zip(relbert_words, relbert_embeddings):
         if word in vocab:
             continue
+        idx += 1
         vocab.add(word)
         embedding_str = " ".join(str(value) for value in embedding)
         f.write(f"{word} {embedding_str}\n")
         if idx == MAX_NUM_WORDS:
             break
 
-print(f"Vocab size: {len(relbert_words)}")
+print(f"Vocab size: {idx}")
 print("Done!")

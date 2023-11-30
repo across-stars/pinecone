@@ -33,12 +33,16 @@ class Embedding():
                     data_list.append(json_data)
 
             self.df = pd.DataFrame(data_list)
+        elif data_path.split('.')[-1] == 'csv':
+            self.df = pd.read_csv(self.data_path)
         else:
-            raise TypeError("pass jsonl file")
+            raise TypeError("pass .jsonl or .csv file")
 
-        # CORRECT  it later for SCAN
-        #print(self.df)
-        prefixes = set(self.df['prefix'].unique())
+        # TODO: more flexible way to handle prefixes
+        if 'prefix' in self.df.columns:
+            prefixes = set(self.df['prefix'].unique())
+        else:
+            prefixes = set(self.df['analogy_type'].unique())
         prefixes.add('all')
         if prefix not in prefixes:
             raise ValueError(f"No such prefix in the dataset!\nMust be one of {prefixes}")
@@ -213,7 +217,7 @@ def test_glove(args):
         if ds not in DATASETS:
             raise ValueError(f"Dataset {ds} not found")
         logging.info(f"Testing {ds} dataset")
-        glove = Glove(DATASETS[ds], prefix ='capital-world', index=glove_index, top_k=args.top_k)
+        glove = Glove(DATASETS[ds], index=glove_index, top_k=args.top_k)
         create_dir(args.output_dir)
         glove.write_to_file(f"{args.output_dir}/glove_{ds}_top{args.top_k}.csv")
         accuracy_at_k[ds] = glove.compute_accuracy()
@@ -234,7 +238,7 @@ def test_relbert(args):
         create_dir(args.output_dir)
         relbert.write_to_file(f"{args.output_dir}/relbert_{ds}_top{args.top_k}.csv")
         accuracy_at_k[ds] = relbert.compute_accuracy()
-        print(f"Accuracy @ k for {ds}: {accuracy_at_k}")
+        print(f"Accuracy @ k for {ds}: {accuracy_at_k[ds]}")
 
 def create_dir(dir_path):
     if not os.path.exists(dir_path):
