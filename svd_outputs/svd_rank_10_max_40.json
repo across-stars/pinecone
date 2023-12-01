@@ -1,0 +1,106 @@
+{
+  "pain": [
+    "headache",
+    "cause",
+    "discomfort",
+    "feel",
+    "symptoms",
+    "suffering",
+    "back",
+    "pain",
+    "pains"
+  ],
+  "fire": [
+    "firing",
+    "emergency",
+    "blaze",
+    "when",
+    "fires",
+    "out",
+    "police",
+    "fire",
+    "flames",
+    "firefighters",
+    "flame"
+  ],
+  "music": [
+    "songs",
+    "music",
+    "dance",
+    "song"
+  ],
+  "professor": [
+    "university",
+    "dean",
+    "emeritus",
+    "lecturer",
+    "professor",
+    "prof."
+  ],
+  "rain": [
+    "wind",
+    "raining",
+    "storm",
+    "fog",
+    "downpour",
+    "rains",
+    "rainfall",
+    "rain",
+    "snow"
+  ],
+  "cat": [
+    "cats",
+    "cat",
+    "dog",
+    "vehicle",
+    "exhaust",
+    "kitten"
+  ],
+  "inspiration": [
+    "inspirations",
+    "inspiration",
+    "spark",
+    "fuel",
+    "ideas",
+    "love",
+    "inspired",
+    "creativity",
+    "great"
+  ],
+  "revenge": [
+    "revenge",
+    "betrayal",
+    "going",
+    "fuel",
+    "vengeance",
+    "rage",
+    "love",
+    "murder",
+    "evil",
+    "retribution"
+  ],
+  "electricity": [
+    "water",
+    "power",
+    "energy",
+    "electricty",
+    "electric",
+    "gas",
+    "fuel",
+    "electricity",
+    "electrical",
+    "renewable"
+  ],
+  "algorithm": [
+    "using",
+    "random",
+    "approximation",
+    "parameter",
+    "optimization",
+    "iterative",
+    "heuristic",
+    "algorithm",
+    "algorithms",
+    "method"
+  ]
+}
